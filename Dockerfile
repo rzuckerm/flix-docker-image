@@ -1,4 +1,4 @@
-FROM openjdk:18-slim
+FROM openjdk:21-slim
 
 COPY FLIX_* /tmp/
 RUN apt-get update && \
